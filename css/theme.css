@@ -248,6 +248,7 @@ html[data-useragent*='MSIE 10.0'] .articles .box .arena{ width: 625px; }
 #section #extras .agt-live-killer.killerbanner {padding: 10px 0 0;}
 #extras .box.social_sml {padding: 0;}
 #wrapper {background: url(../img/wings.jpg?nocach=no) center center no-repeat transparent;}
+.articles #wrapper-3 {margin: 0 auto;}
 /** Ask presenter
 #main .askpresenter .content {background: url("../img/askpresenters.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);min-height: 246px;width: 585px;}
 .askpresenter .arena {float: left;margin-top: 30px;width: 411px;}
