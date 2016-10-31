@@ -135,7 +135,7 @@ a img, .wrap_trivia img, #extras .box, .button-wrapper input, .wrap-options li .
 .program-listing .SS_roll > div{ width: 196px; height: 200px; }
 .program-listing{ width: 615px!important; height: 200px; }
 .SS_roll{ float: right; left: 10px; }
-.program-listing .SS_roll .main-img img{ width: 186px; height: 125px; border: 0; box-shadow: none; }
+.program-listing .SS_roll .main-img img{ width: 186px; height: 104px; border: 0; box-shadow: none; }
 .SS_right-arrow span{ background: url(../img/slider-arrow-right.png) 0 0 no-repeat; }
 .SS_left-arrow span{ background: url(../img/slider-arrow-left.png) 0 0 no-repeat; }
 .program-listing .SS_left-arrow, .program-listing .SS_right-arrow{ background: #ffffff; width: 24px !important; }
