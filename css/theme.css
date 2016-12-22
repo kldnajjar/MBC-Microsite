@@ -203,7 +203,7 @@ html[data-useragent*='MSIE 10.0'] .articles .box .arena{ width: 625px; }
 .channel-repeat-time{ border-right: 0 none; width: 145px !important; }
 .program-repeat-time .show-time-arrow .dropdown-arrow{ background: url(../img/arrow-down.png) 0 0 no-repeat; }
 .repeat-time .show-channel-logos{ width: 45px; }
-.wrap_channel_navigation_inner > ul{ height: 50px; margin-right: 185px;}
+.wrap_channel_navigation_inner > ul{ height: 50px;}
 .content-stream.box.content-stream-full-width{ width: 980px; }
 #main .content-stream.box.content-stream-full-width .content{ padding: 0; }
 .content-stream-full-width .tabs{ margin: 0 15px 15px; }
@@ -265,6 +265,8 @@ body {background-color: #DEBF7C;}
 .wrap_channel_navigation li:hover a, .wrap_channel_navigation li strong {background-color: #000000;color: #ffffff;}
 .wrap_channel_navigation ul ul {background: #a4814e;}
 .wrap_channel_navigation ul ul li:hover a, .wrap_channel_navigation ul ul li strong {background: #a4814e;}
+
+.wrap_channel_navigation_inner > ul{margin-right: 185px;}
 
 .sliderkit .sliderkit-nav{background-color: #413721; }
 .sliderkit-selected, .st1:hover{ background-color: #ffffff;}
