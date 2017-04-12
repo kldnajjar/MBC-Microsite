@@ -257,9 +257,14 @@ html[data-useragent*='MSIE 10.0'] .articles .box .arena{ width: 625px; }
 /** Styles Changes **/
 body {background-color: #DEBF7C;}
 
-#site-info .info-form,#site-info #site-info-inner .copyrights{border-top: 1px solid  #c4a35e;}
+#site-info .info-form,#site-info #site-info-inner .copyrights{border-top: 1px solid  #c4a35e;position:relative}
 #site-info #site-info-inner .copyrights, #site-info li, #site-info li a, #site-info a {color: #5d5d5e;}
 #site-info a:hover {color: #000000;}
+
+#site-info #site-info-inner .copyrights{overflow: auto;}
+#wrapper #site-info .info-form:after,
+#site-info #site-info-inner .copyrights:after {content:'';width:100%;position: absolute;height:1px;background:#c0c1c1;top:-2px;left:0px}
+
 
 .wrap_channel_navigation ul li a {color: #000000;}
 .wrap_channel_navigation li:hover a, .wrap_channel_navigation li strong {background-color: #000000;color: #ffffff;}
