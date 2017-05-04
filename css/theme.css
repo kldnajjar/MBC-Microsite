@@ -21,7 +21,6 @@ a img, .wrap_trivia img, #extras .box, .button-wrapper input, .wrap-options li .
 #main .box.wrap_maintt4 #button .disabledArrow, #main .box.wrap_maintt4 #button > a, #extras .box.wrap_maintt4 #button .disabledArrow, #extras .box.wrap_maintt4 #button > a{ display: inline-block; float: none; left: auto; top: 4px; }
 .take-over{ height: 0; margin: 0 auto; overflow: visible; position: relative; width: 1010px; z-index: 51; }
 #section-header{ height: 33px; width: 980px; }
-.program-listing-contents .SS_roll{ left: 0px !important; }
 .wrap_channel_navigation{ height: auto; margin: 0 auto; }
 .wrap_channel_navigation li{ margin: 0; background: url(../img/nav-separate.jpg) left center no-repeat; margin-right: -2px; }
 .wrap_channel_navigation ul li a, .wrap_channel_navigation ul li strong{ font: 25px/13px MyTestMedium; padding: 6px 12px; margin: 8px 0; }
@@ -131,15 +130,6 @@ a img, .wrap_trivia img, #extras .box, .button-wrapper input, .wrap-options li .
 #main .pager .next a, #main .pager .previous a, #main .pager .next a:hover, #main .pager .previous a:hover, .wrap_GSMcodes .head, #main .wrap_article .head, #main .wrap_grid .head, #main .box.special .head, #main .wrap_multimedia_article .head{ background: transparent; }
 #extras .extras-tabs-toc a:hover, #extras .pager li a:hover, #extras .wrap_audio_sml .lnklst li .episode-source a:hover, #extras .graph dd .bar, .special .wrap-options li.tab-button a:hover, .special .pager li a:hover, .jspDrag, .jspArrow.jspDisabled, .wrap_features .next span:hover, .text-box-toc li a:hover, .wrap-options li.tab-button a:hover, .pager li a:hover, .wrap_features .prev span:hover{ background-color: #9ba2ab; color: #FFFFFF; }
 #main .pager li.next a:hover, #main .pager li.previous a:hover{ color: #303030; }
-.program-listing-block{ padding: 15px 0px; width: 615px; height: 287px; }
-.program-listing .SS_roll > div{ width: 196px; height: 200px; }
-.program-listing{ width: 615px!important; height: 200px; }
-.SS_roll{ float: right; left: 10px; }
-.program-listing .SS_roll .main-img img{ width: 186px; height: 104px; border: 0; box-shadow: none; }
-.SS_right-arrow span{ background: url(../img/slider-arrow-right.png) 0 0 no-repeat; }
-.SS_left-arrow span{ background: url(../img/slider-arrow-left.png) 0 0 no-repeat; }
-.program-listing .SS_left-arrow, .program-listing .SS_right-arrow{ background: #ffffff; width: 24px !important; }
-.program-listing .SS_right-arrow span, .program-listing .SS_left-arrow span{ width: 31px; height: 39px; top: 40px !important; }
 .photos-browser{ display: none; }
 .share-bar{ margin: 0 15px 10px; }
 .wrap_article h2, .mainttl_a h2, .mainttl_video h3{ font: 30px/30px mytestmedium; margin: 0 0 10px; }
@@ -250,6 +240,24 @@ html[data-useragent*='MSIE 10.0'] .articles .box .arena{ width: 625px; }
 .articles #wrapper-3 {margin: 0 auto;}
 .block-header h3 {font: 36px mytestmedium;color: #303030;text-align: right;margin: 0;padding: 4px 10px 21px;}
 #wrapper-3-inner #main .content-stream.content-stream-rp.box.wrap {margin: 15px 0;}
+/******** <Star Slider Box> ***********/
+.program-listing-block{ padding: 15px 0px; width: 615px; height: 287px; }
+.program-listing .SS_roll > div{width: 190px;height: 200px;}
+.program-listing{width: 611px!important;height: 200px;}
+.SS_roll{ float: right; left: 10px; }
+.program-listing .SS_roll .main-img img{width: 170px;height: 113px;}
+.program-listing h3 a { padding-right: 5px;}
+.SS_right-arrow span{ background: url(../img/slider-arrow-right.png) 0 0 no-repeat; }
+.SS_left-arrow span{ background: url(../img/slider-arrow-left.png) 0 0 no-repeat; }
+.program-listing .SS_left-arrow, .program-listing .SS_right-arrow{background: #ffffff}
+.program-listing .SS_right-arrow{width: 21px !important;}
+.program-listing .SS_left-arrow{width: 24px !important;}
+.program-listing .SS_right-arrow span, .program-listing .SS_left-arrow span{ width: 31px; height: 39px; top: 40px !important; }
+.program-listing .SS_right-arrow span, .program-listing .SS_left-arrow span{top: 24% !important;width: 15px;height: 49px;left: 0 !important;}
+.program-listing .SS_left-arrow span {left: 3px !important;}
+.program-listing-contents .SS_roll{left: 17px !important;}
+.program-listing .SS_roll >div:hover .main-img img{ border-color: #d8d4d4;}
+/******** </Star Slider Box> ***********/
 /** Ask presenter
 #main .askpresenter .content {background: url("../img/askpresenters.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);min-height: 246px;width: 585px;}
 .askpresenter .arena {float: left;margin-top: 30px;width: 411px;}
