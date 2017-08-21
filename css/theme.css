@@ -257,6 +257,7 @@ html[data-useragent*='MSIE 10.0'] .articles .box .arena{ width: 625px; }
 .program-listing .SS_left-arrow span {left: 3px !important;}
 .program-listing-contents .SS_roll{left: 17px !important;}
 .program-listing .SS_roll >div:hover .main-img img{ border-color: #d8d4d4;}
+.content-stream-box:empty:hover {background: none;}
 /******** </Star Slider Box> ***********/
 /** Ask presenter
 #main .askpresenter .content {background: url("../img/askpresenters.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);min-height: 246px;width: 585px;}
