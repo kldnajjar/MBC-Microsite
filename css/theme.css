@@ -207,7 +207,7 @@ html[data-useragent*='MSIE 10.0'] .articles .box .arena{ width: 625px; }
 .show-channel-logos{ border-left: 0 none; height: 40px; min-width: auto; width: auto; }
 .show-channel-logos.channel2{ border-right: 1px solid #191d25; margin-right: 9px; padding-right: 6px; }
 .show-day{ color: #fff; font: 17px/20px MyTestMedium; margin-bottom: 3px; margin-top: -6px; width: 100%; }
-.show-time{ color: #fff; font: 15px/12px MyTestMedium; margin: 0; width: auto !important; }
+.show-time{ color: #fff; font: 15px/12px MyTestMedium; margin: 0; width: 150px !important; }
 .program-timing .show-time > .show-time-ksa > span, .program-timing .show-time > .show-time-gmt > span{ color: #fff; font: 15px MyTestMedium; }
 .program-timing .show-time span{ color: #fff; font: 13px/12px MyTestbold; margin-left: 0; margin-right: 3px; top: 0; }
 .show-time-ksa, .show-time-gmt{ float: right; }
@@ -255,10 +255,9 @@ html[data-useragent*='MSIE 10.0'] .articles .box .arena{ width: 625px; }
 .program-listing .SS_right-arrow span, .program-listing .SS_left-arrow span{ width: 31px; height: 39px; top: 40px !important; }
 .program-listing .SS_right-arrow span, .program-listing .SS_left-arrow span{top: 24% !important;width: 15px;height: 49px;left: 0 !important;}
 .program-listing .SS_left-arrow span {left: 3px !important;}
-.program-listing-contents .SS_roll{left: 0 !important;}
+.program-listing-contents .SS_roll{left: 17px !important;}
 .program-listing .SS_roll >div:hover .main-img img{ border-color: #d8d4d4;}
-.content-stream-box:empty:hover {background: none;}
-.wrap_maintt2 .arena p {font: 24px/30px MyTestMedium;color: #818181;}
+.content-stream-box:empty:hover {  background: none;  }
 /******** </Star Slider Box> ***********/
 /** Ask presenter
 #main .askpresenter .content {background: url("../img/askpresenters.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);min-height: 246px;width: 585px;}
