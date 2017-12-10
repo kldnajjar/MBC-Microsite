@@ -258,6 +258,13 @@ html[data-useragent*='MSIE 10.0'] .articles .box .arena{ width: 625px; }
 .program-listing-contents .SS_roll{left: 17px !important;}
 .program-listing .SS_roll >div:hover .main-img img{ border-color: #d8d4d4;}
 .content-stream-box:empty:hover {  background: none;  }
+/** <Kill Banner Soical Share Left Box> **/
+.socialshare .tablepad tr {background: url(/dms/creative/programs-2017/feb/arabs-got-talent-s5/img/socialshare-tr-v1.jpg) no-repeat scroll center bottom #f8f8fc;float: left;width: 312px;}
+.socialshare {background: none repeat scroll 0 0 rgba(0, 0, 0, 0);height: 275px;padding-top: 2px;}
+.tablepad tr td {padding-bottom: 8px;padding-left: 20px;padding-top: 10px;}
+.tablepad tr td {text-align: left;}
+body, table td, select, button {color: #747474;font: 14px Tahoma, Geneva, sans-serif;}
+/** <End of Kill Banner Soical Share Left Box> **/
 /******** </Star Slider Box> ***********/
 /** Ask presenter
 #main .askpresenter .content {background: url("../img/askpresenters.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);min-height: 246px;width: 585px;}
